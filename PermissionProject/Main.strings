@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "Photos"; ObjectID = "HFU-HY-gpf"; */
+"HFU-HY-gpf.configuration.title" = "Photos";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HFU-HY-gpf"; */
+"HFU-HY-gpf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Camera"; ObjectID = "ZkJ-Wp-6rv"; */
+"ZkJ-Wp-6rv.configuration.title" = "Camera";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZkJ-Wp-6rv"; */
+"ZkJ-Wp-6rv.normalTitle" = "Button";
