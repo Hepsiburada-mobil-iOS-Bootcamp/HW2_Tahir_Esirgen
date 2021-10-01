@@ -17,5 +17,6 @@ enum PermissionImages: String, GenericValueProtocol {
     
     case camera = "camera_"
     case photos = "notif_"
+    case bjk = "bjk"
     
 }
