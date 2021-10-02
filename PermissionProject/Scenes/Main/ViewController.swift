@@ -33,10 +33,20 @@ class ViewController: UIViewController {
     
     private func addImage(){
         let imageName = "bjk.png"
-        let image = UIImage(named: imageName)
-        let imageView = UIImageView(image: image!)
-        imageView.frame = CGRect(x: 0, y: 0, width: 414, height: 896)
+        guard let image = UIImage(named: imageName) else{ return }
+        let imageView = UIImageView(image: image)
+        imageView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(imageView)
+        
+        NSLayoutConstraint.activate([
+            
+            imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            imageView.topAnchor.constraint(equalTo: view.topAnchor),
+            imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+
+        
     }
     
     private func addActionButton() {
